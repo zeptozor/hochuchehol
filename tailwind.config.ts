@@ -10,6 +10,11 @@ const config: Config = {
                 gray: '#848D9F',
                 red: '#E85252',
             },
+            screens: {
+                sm: '768px',
+                md: '1024px',
+                lg: '1500px',
+            },
         },
     },
     plugins: [],

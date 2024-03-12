@@ -7,13 +7,13 @@ import WhyUs from '@/modules/WhyUs'
 
 export default function Home() {
     return (
-        <>
+        <div>
             <Nav />
             <Hero />
             <Advantages />
             <Audience />
             <WhyUs />
             <Requirements />
-        </>
+        </div>
     )
 }

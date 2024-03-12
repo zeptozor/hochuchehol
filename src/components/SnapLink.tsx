@@ -4,7 +4,7 @@ export default function SnapLink({ label, id }: { label: string; id: string }) {
         section?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
     return (
-        <p className="text-[18px] hover:text-red duration-300 cursor-pointer" onClick={scrollTo}>
+        <p className="md:text-[18px] hover:text-red duration-300 cursor-pointer" onClick={scrollTo}>
             {label}
         </p>
     )
